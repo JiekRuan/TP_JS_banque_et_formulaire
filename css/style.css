@@ -1,0 +1,58 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 1.6rem 'Open sans',sans-serif;
+    margin: 0;
+    
+}
+h1,h2,h3,p,ul,ol,figure{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    margin: 3rem;
+}
+header h1{
+    text-align: center;
+    line-height: 6rem;
+    font-size: 3rem;
+}
+header h1::before{
+    content: '\1F4B5';
+}
+main p{
+    margin: 0 auto;
+    text-align: center ;
+    padding: 2.5rem ;
+    border: solid .1rem #ccc;
+    background-color: #1E90FF;
+    width: 60rem;
+    color: #fff;
+    box-shadow: .5rem .5rem .5rem #ccc;
+}
+main div{
+    display: block;
+    text-align: center;
+    color: #ccc;
+    
+}
+
+.warning{
+    margin: 0 auto;
+    text-align: center ;
+    padding: 2.5rem ;
+    border: solid .1rem #ccc;
+    background-color: rgb(235, 22, 22);
+    width: 60rem;
+    color: #fff;
+    box-shadow: .5rem .5rem .5rem #ccc;
+}
+footer{
+    text-align: center;
+    margin: 5rem;
+}

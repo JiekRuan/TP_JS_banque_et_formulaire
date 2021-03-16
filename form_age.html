@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'Age</title>
+    <link rel="stylesheet" href="./css/form.css">
+</head>
+<body>
+    <header>
+        <h1>Donnez nous votre âge</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Suivez les instructions</h2>
+        </section>
+        <div class="warning" role="region">
+            <p></p>
+        </div>
+        <fieldset>
+            <legend>Saisir votre âge</legend>
+            <form action="form_age.html" method="get">
+                <!--age-->
+                <label for="age">Age*</label>
+                <br>
+                <input type="text" name="age" id="age" placeholder="Votre age" aria-required="true">
+                <br>
+                <!--prenom--> 
+                <label for="prenom">Prenom*</label>
+                <br>
+                <input type="text" name="prenom" id="prenom" placeholder="Votre prenom" aria-required="true">
+                <br>
+                <input type="submit" value="Valider le formulaire">
+            </form>
+
+        </fieldset>
+    </main>
+    <footer>
+        <p>&copy; - Jiek Ruan - 2021</p>
+    </footer>
+    <script src="./js/form_age.js"></script>
+</body>
+</html>
